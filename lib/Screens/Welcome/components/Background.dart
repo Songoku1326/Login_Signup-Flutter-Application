@@ -21,7 +21,7 @@ class Background extends StatelessWidget {
             bottom: 0,
             child: Image.asset(
               "assets/images/photo-1482938289607-e9573fc25ebb.png",
-              height: size.height,
+              fit: BoxFit.fill,
             ),
           ),
           child,
